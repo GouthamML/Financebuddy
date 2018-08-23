@@ -1,0 +1,7 @@
+{
+  "name": "Financebuddy",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

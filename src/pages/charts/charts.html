@@ -1,0 +1,27 @@
+<ion-header>
+        <script src="node_modules/chart.js/src/chart.js"></script>
+        <ion-navbar>
+          <ion-title>
+            Ionic Blank
+          </ion-title>
+        </ion-navbar>
+        
+      </ion-header>
+      <ion-content padding>
+        <h2>{{full_name}}</h2>
+        <h4>{{invest}}</h4>
+        <h2>{{interest}}%</h2>
+        <div class="chartStyle">
+                <canvas baseChart
+                            [data]="doughnutChartData"
+                            [labels]="doughnutChartLabels"
+                            [chartType]="doughnutChartType"
+                            (chartHover)="chartHovered($event)"
+                            (chartClick)="chartClicked($event)"></canvas>
+              </div>
+    
+      
+      </ion-content>
+      
+      
+      

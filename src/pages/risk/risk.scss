@@ -1,0 +1,97 @@
+page-home {
+  .slider
+  {
+            /* to support IE 9 */
+      //transform: rotate(90deg);
+    }
+    .sliderdiv
+    {
+      
+      //transform: rotate(90deg);
+      position: relative;
+      top: 150px;
+      left: 11px;
+    }
+    .lowdiv
+    {
+      position: absolute;
+      top: 49px;
+      left: 143px;
+      font-size: 15px;
+      font-family: serif;
+    }
+    .meddiv
+    {
+      position: relative;
+      top: 204px;
+      left: 117px;
+      font-size: 15px;
+      font-family: serif;
+    }
+    .highdiv
+    {
+      position: relative;
+      top: 358px;
+      left: 139px;
+      font-size: 16px;
+      font-family: serif;
+    }
+    .background-image {
+    position: absolute;
+    
+    background-image: linear-gradient(180deg, #EB5757, #000000);
+    height: 100%;
+    width: 100%;
+    filter: blur(5px);
+  }
+  .rangeslider
+  {
+        height: 106px;
+      top: 34px;
+  }
+  .riskimg
+  {
+          position: absolute;
+    width: 90%;
+    top: 18px;
+    left: 21px;
+  
+  }
+  
+  .sliderdiv
+  {
+    top: 233px;
+      left: -2px;
+      position: relative;
+      padding-top: 0;
+      margin-top: -5px;
+      padding: 0px;
+  
+  
+  }
+  .labellow
+  {
+       margin: 12px 29px 9px -62px;
+      top: 57px;
+      left: -101px;
+      position: relative;
+  }
+  .labelhigh
+  {
+        margin: 12px 29px 9px -62px;
+      top: 17px;
+      left: 190px;
+      position: relative;
+  }
+  .riskbutton
+  {
+    position: relative;
+      top: 294px;
+      left: 99px;
+      width: 161px;
+      height: 54px;
+      color: white;
+      font-size: 30px;
+  
+  }
+  }

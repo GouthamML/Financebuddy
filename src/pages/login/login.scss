@@ -1,0 +1,85 @@
+page-login {
+ .contentstyle
+ {
+ 	background-color: #273345 !important;
+ 	height: 100%;
+ 	width: 100%;
+ }
+.scroll-content
+ {
+ 	align-content: center;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	text-align: center;
+ }
+ .logindiv
+ {
+ 	   background-color: #e7e7e7;
+    position: absolute;
+    height: 17%;
+    width: 100%;
+    top: 0%;
+    /* border-radius: 42px; */
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-size: 34px;
+    font-style: normal;
+    font-family: -webkit-pictograph;
+ }
+ .belowdiv
+ {
+ 	background-color: #e7e7e7;
+    position: absolute;
+
+ }
+ ion-card.card 
+ {
+ 	box-shadow: none;
+ 	background-color: #e7e7e7;
+ 	border-radius: 5px;
+
+ }
+ ion-card-header.card-header
+ {
+ 	color: black;
+ }
+ .item{
+ 	margin-bottom: 10px;
+ 	background: rgba(255,255,255,0.5);
+ 	border:medium none;
+ 	.text-input, {
+			color: black;
+		}
+
+		input::-moz-placeholder  {
+			color: black!important;
+		}
+
+		input:-moz-placeholder {
+			color: black!important;
+		}
+
+		*::-webkit-input-placeholder  {
+			color: black!important;
+		}
+
+		*:-ms-input-placeholder  {
+			color: black!important;
+		}
+
+		*:-moz-placeholder  {
+			color: black!important;
+		}
+	}
+
+	.icon {
+		padding-right: 10px;
+	}
+
+	.bottom {
+		position: absolute;
+		bottom: 0;
+	}
+ 
+}
