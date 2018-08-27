@@ -6,7 +6,7 @@ page-home {
   .background-imageyear {
     position: absolute;
     
-    background-color: #562e41;
+    background-color: #8f0000;
     height: 100%;
     width: 100%;
     filter: blur(5px);
@@ -55,19 +55,40 @@ page-home {
   }
   .clockdiv
   {
-         position: relative;
-    height: 47px;
+       border-right: -25%;
+    /* margin: 0px; */
+    /* padding: 0px; */
+    /* position: relative; */
+    /* height: 43px; */
     /* z-index: 15; */
-    top: -108%;
-    margin: 0 0 -10px;
+    /* top: -117%; */
+    /* margin: 0 0 -10px; */
+    /* background: transparent; */
+    /* text-align: center; */
+    /* font-size: 204%; */
+    /* font-family: arial; */
+    /* font-weight: bold; */
+    /* padding: 3px; */
+    /* margin-right: -90px; */
+    /* color: black; */
+    /* left: 45%; */
+    /* width: 49%; */
+    padding-right: -113%;
+    position: absolute;
+    width: -1%;
+    height: -39%;
+    /* z-index: 15; */
+    left: 47%;
+    /* margin: 0 0 -10px; */
     background: transparent;
-    text-align: center;
-    font-size: 230%;
-    font-family: arial;
+    /* text-align: center; */
+    /* font-size: 230%; */
+    /* font-family: arial; */
     font-weight: bold;
     padding: 3px;
     color: black;
-    left: 18%;
+    top: 14%;
+    font-size: 31px;
   }
   .slide-zoom {
     text-align: center;
@@ -90,34 +111,35 @@ page-home {
   }
   .clockdiv1
   {
-     position: relative;
-    width: 49%;
-    height: 12%;
+     position: absolute;
+    width: -1%;
+    height: -39%;
     /* z-index: 15; */
-    left: 46%;
+    left: 47%;
     /* margin: 0 0 -10px; */
-    background: #f4f4f4;
+    background: transparent;
     /* text-align: center; */
-    font-size: 230%;
-    font-family: arial;
+    /* font-size: 230%; */
+    /* font-family: arial; */
     font-weight: bold;
     padding: 3px;
-    color: white;
-    top: -23%;
+    color: black;
+    top: 57%;
   }
   .yearcard
   {
-    height: 158px !important;
-    margin-bottom: 22px;
+        height: 139px !important;
+    margin-bottom: 33px;
     /* margin-top: 22px; */
     /* margin-left: 10px; */
     /* border-radius: 45px; */
     position: relative;
-    width: 111%;
+    width: 88%;
     /* top: 51px; */
     /* padding: 0; */
-    left: 10%;
+    left: 4%;
     /* right: 49%; */
+    margin-top: -6px;
   }
   .headerfirstyear
     {

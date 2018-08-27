@@ -2,7 +2,7 @@
         <script src="node_modules/chart.js/src/chart.js"></script>
         <ion-navbar>
           <ion-title>
-            Ionic Blank
+            Invest
           </ion-title>
         </ion-navbar>
         
@@ -10,7 +10,7 @@
       <ion-content padding>
         <h2>{{full_name}}</h2>
         <h4>{{invest}}</h4>
-        <h2>{{interest}}%</h2>
+        <h2>Wow! You are entitled to {{interest}}% interest on this investment</h2>
         <div class="chartStyle">
                 <canvas baseChart
                             [data]="doughnutChartData"
@@ -19,6 +19,9 @@
                             (chartHover)="chartHovered($event)"
                             (chartClick)="chartClicked($event)"></canvas>
               </div>
+              <div class="chartsdiv">*</div>
+              <div class="stardiv"> * - Subject to Market Risk</div>
+              
     
       
       </ion-content>
