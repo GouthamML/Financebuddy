@@ -4,14 +4,7 @@ page-home {
             /* to support IE 9 */
       //transform: rotate(90deg);
     }
-    .sliderdiv
-    {
-      
-      //transform: rotate(90deg);
-      position: relative;
-      top: 150px;
-      left: 11px;
-    }
+
     .lowdiv
     {
       position: absolute;
@@ -49,13 +42,9 @@ page-home {
         height: 106px;
       top: 34px;
   }
-  .riskimg
-  {
-          position: absolute;
-    width: 90%;
-    top: 18px;
-    left: 21px;
-  
+  .riskimg {
+      position: relative;
+      padding: 5%;
   }
   #logo {
   display: inline-block;
@@ -71,24 +60,63 @@ page-home {
   -webkit-transform: rotate(45deg);
   display: inline-block;
 }
-#logo .needle {
-  width: 5px;
-    height: 87px;
-    background: #000000;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
-    display: inline-block;
-    left: 18px;
+
+
+.needle-pos-low {
+    width: 0.45em;
+    height: 6em;
     position: absolute;
-    top: -90px;
-    -webkit-animation: move 15s infinite;
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transform-origin: bottom;
+    bottom: 16%;
+    transform: translate(-50%);
+    left : 50%;
+    transition-duration: 1s;
+    -webkit-transform: rotate(-90deg); 
     transform-origin: bottom;
 }
+
+.needle-pos-medium {
+    width: 0.45em;
+    height: 6em;
+    position: absolute;
+    bottom: 16%;
+    transform: translate(-50%);
+    left : 49%;
+    transition-duration: 1s;
+    -webkit-transform: rotate(0deg); 
+    transform-origin: bottom;
+}
+
+.needle-pos-high {
+    width: 0.45em;
+    height: 6em;
+    position: absolute;
+    bottom: 16%;
+    transform: translate(-50%);
+    left : 50%;
+    transition-duration: 1s;
+    -webkit-transform: rotate(90deg); 
+    transform-origin: bottom;
+}
+
+
+.meter {
+    position: absolute;
+    height: 2.5em;
+    border-radius: 1.5em;
+    width: 2.5em;
+    background-color: #f16441;
+    bottom: 11%;
+    transform: translatex(-50%);
+    left: 50%;
+}
+
+.needle {
+  display: inline-block;
+    background-color: red;
+    height: 80%;
+    width: 100%;
+}
+
 @-webkit-keyframes move {
   0% {
     transform: rotate(-90deg);
@@ -100,16 +128,8 @@ page-home {
     transform: rotate(-90deg);
   }
 }
-  .sliderdiv
-  {
-    top: 233px;
-      left: -2px;
-      position: relative;
-      padding-top: 0;
-      margin-top: -5px;
-      padding: 0px;
-  
-  
+  .sliderdiv {
+
   }
   .labellow
   {
@@ -125,15 +145,13 @@ page-home {
       left: 190px;
       position: relative;
   }
-  .riskbutton
-  {
-    position: relative;
-      top: 294px;
-      left: 99px;
-      width: 161px;
+  .riskbutton {
+      position: relative;
+      top: 10px;
+      left: 30%;
+      width: 40%;
       height: 54px;
       color: white;
-      font-size: 30px;
-  
-  }
+      font-size: 2em;  
+   }
   }

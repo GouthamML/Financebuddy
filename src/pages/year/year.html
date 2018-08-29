@@ -7,52 +7,43 @@
     
   </ion-header>
 
-  <ion-content>
+<ion-content>
     <div class="background-imageyear"></div> 
-    <div class="slider">
-      <div class="back">
     
-    <ion-card class="yearcard">
+    <ion-card class="yearcard" (click)=open_chart(3)>
       
-  
+      <img src="../assets/imgs/clock_1.png" class="title-content">
     
-             
-    
-    
-  <div class="title-content" (click)=open_chart(3)>
-    <img src="../assets/imgs/clock_1.png">
-  </div>
   <div class="clockdiv">
-    0-5 Years
-  </div>
+    0-5 Years</div>
+
   <div class="clockdiv1">Want to Invest for 0-5 Years</div>
+</ion-card>
 
-</ion-card></div>
-
-    <ion-card class="yearcard">
+<ion-card class="yearcard" (click)=open_chart(8)>
       
 
-        <div class="title-content" (click)=open_chart(8)>
-    <img src="../assets/imgs/clock_2.png">
-  </div>
+        
+    <img src="../assets/imgs/clock_2.png" class="title-content">
+
   <div class="clockdiv">
     5-10 Years
   </div>
   <div class="clockdiv1">Want to Invest for 5-10 Years</div>
 </ion-card>
   
-    <ion-card class="yearcard">
+<ion-card class="yearcard" (click)=open_chart(15)>
       
-  <div class="title-content" (click)=open_chart(15)>
-    <img src="../assets/imgs/clock_3.png">
-  </div>
+  
+    <img src="../assets/imgs/clock_3.png" class="title-content">
+
   <div class="clockdiv">
     >10 Years
   </div>
 <div class="clockdiv1">Want to Invest for >10 Years</div>
 </ion-card>
 
-
+</ion-content>
 
 
 
@@ -83,6 +74,5 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 </ion-card> -->
 
 
-</div>
 
-  </ion-content>
+  

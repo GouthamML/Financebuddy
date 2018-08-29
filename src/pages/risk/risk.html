@@ -6,22 +6,23 @@
     
   </ion-header>
   <ion-content>
+    <div>
     <div class="riskimg">
-      <img src="../assets/imgs/risk.png ">
+      <img src="../assets/imgs/risk_meter1.png ">
+      <span [ngClass]="needleClass" >
+        <div class="needle"></div>
+      </span>
     </div>
    <div class="sliderdiv">
     <ion-item>
       
-      <ion-range  min="1" max="3" step="1" snaps="true" color="secondary" [(ngModel)]="saturation" (ionchange)="change(saturation)"></ion-range>
+      <ion-range  min="1" max="3" step="1" snaps="true" color="secondary" [(ngModel)]="saturation" (ionChange)="change(saturation)" ></ion-range>
       <ion-label class="labellow">LOW</ion-label>
       <ion-label class="labelhigh">HIGH</ion-label>
     </ion-item>
   </div>
   
   <button ion-button round class="riskbutton" (click)="risk_func()">Submit</button>
-    
-  <div id="logo">
-  <span class="needle"></span>
 
 </div>
   </ion-content>
